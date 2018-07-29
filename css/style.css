@@ -1,0 +1,64 @@
+.containerPrincipal{
+	padding-top: 74px;
+}
+
+.cabecalho{
+	padding-top: 15px;
+}
+
+.rodape{
+	text-align: center;
+}
+
+.redeSocial{
+	text-align: center;
+}
+
+.icone{
+	margin-right: 10px;
+}
+
+hr{
+	box-shadow: 5px 10px dimgray;
+}
+
+.containerFoto:hover{
+	text-align: center;
+}
+
+.thumbnail {
+	overflow: hidden;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+
+.thumbnail img {
+	width: 338px;
+	height: 180px;
+	-webkit-transform: scale(1.9);
+}
+
+.thumbnail:hover {
+	width: 330px;
+	height: 270px;
+	position: relative;
+	float: right;
+	transition: all 0.3s;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+
+.thumbnail:hover img {
+	width: 330px;
+	height: 270px;
+	-webkit-transform: scale(1.1);
+	max-width: 100%;
+	max-height: 100%;
+	transition: all 0.3s;
+	
+	
+}
+
+
+
